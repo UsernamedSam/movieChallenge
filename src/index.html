@@ -7,7 +7,45 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="app"></div>
+    <header>
+        <a href="LOGO.png" class="logo">
+            <img src="LOGO.png" alt="catalog logo">
+        </a>
+        <h1>Discover a world of movies, one click at a time.</h1>
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Search for movies...">
+            <!--<button id="search-button">Search</button>-->
+        </div>
+        <!-- Barra de navegación -->
+        <div id="sidebar" class="sidebar">
+            <button class="closebtn" onclick="closeNav()">Close</button>
+            <a href="#movies">Movies</a>
+           <!--<a href="#genres">Géneros</a>--> 
+            <div class="dropdown">
+                <a href="#genres" class="dropbtn">Genres</a>
+                <div class="dropdown-content" id="genresDropdown">
+                  <!-- Aquí se mostrarán los géneros -->
+                </div>
+            </div>  
+            <a href="#top-rated" id="top-rated-container">Top Rated</a>
+            <a href="#upcoming" ids="upcoming-container">Upcoming</a>
+        </div>
+        <div id="main">
+            <button class="openbtn" onclick="openNav()">&#9776;</button>
+        </div>
+        <div id="content"></div>        
+    </header>
+    <div id="root"></div>
+    <div id="movieModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <div id="movie-details"></div>
+        </div>
+      </div>
+      
     <script src="main.js"></script>
+    <footer>
+        <p>&copy; Samira Subía</p>
+      </footer>
 </body>
 </html>

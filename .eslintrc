@@ -1,6 +1,9 @@
 {
     "env": {
-      "browser": true
+      "browser": true,
+      "es2021": true,
+      "node": true,
+      "jest": true
     },
     "parserOptions": {
       "ecmaVersion": 2018,
@@ -8,7 +11,7 @@
     },
     "extends": "eslint:recommended",
     "rules": {
-      "no-console": "warn",
+      "no-console": "off",
       "import/extensions": 0,
       "no-var": "error",
       "prefer-const": "error",
@@ -16,4 +19,4 @@
       "indent": ["error", 2]
     }
   }
-  
+ 

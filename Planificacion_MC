@@ -1,0 +1,82 @@
++-----------------------------------------+      
+|           Sprint 1: Preparación         |   
+|            y Estructura                 |
++-----------------------------------------+
+| [ ] Definir la estructura del proyecto  |
+|      (carpetas y archivos)              |
+| [ ] Configurar dependencias y           |
+|      herramientas (ESLint, Babel, etc.) |
+| [ ] Crear prototipo de baja fidelidad   |
+|      en Figma                           |
+| [ ] Leer documentación de The Movie     |
+|      Database API V3                    |
+| [ ] Crear clave de acceso y probar      |
+|      peticiones con Postman             |
+| [ ] Crear backlog de historias de       |
+|      usuario                            |
+| [ ] Dividir historias de usuario en     |
+|      tareas más pequeñas                |
+| [ ] Configurar el proyecto en GitHub    |
+|      y hacer el primer commit           |
++-----------------------------------------+
+
++-----------------------------------------+
+|  Sprint 2: Desarrollo de Funcionalidades|
+|                Básicas                  |
++-----------------------------------------+
+| [ ] Implementar la estructura básica de |
+|      la página en `index.html` y        |
+|      `main.js`                          |
+| [ ] Asegurarse de que el sitio sea una  |
+|      SPA (Single Page Application)      |
+| [ ] Crear componentes básicos (catálogo |
+|      de películas, vista de detalle)    |
+| [ ] Implementar fetch de datos desde    |
+|      la API                             |
+| [ ] Mostrar lista de películas en la    |
+|      página principal                   |
+| [ ] Implementar enrutado básico usando  |
+|      hashchange                         |
+| [ ] Crear prototipo de alta fidelidad   |
+|      en Figma                           |
++-----------------------------------------+
++-----------------------------------------+
+|  Sprint 3: Funcionalidades Avanzadas y  |
+|                Estilo                   |
++-----------------------------------------+
+| [ ] Implementar funcionalidad de        |
+|      filtrado y ordenamiento de         |
+|      películas                          |
+| [ ] Aplicar CSS para el diseño final    |
+|      basado en el prototipo de alta     |
+|      fidelidad                          |
+| [ ] Asegurarse de que la aplicación sea |
+|      responsive                         |
+| [ ] Implementar manejo de eventos para  |
+|      la interacción del usuario         |
+| [ ] Crear pruebas unitarias para        |
+|      componentes y funcionalidades      |
+| [ ] Mejorar el enrutado y la navegación |
+|      en la SPA                          |
++-----------------------------------------+
+
++-----------------------------------------+
+|         Sprint 4: Pruebas y             |
+|                Despliegue               |
++-----------------------------------------+
+| [ ] Realizar pruebas de usabilidad y    |
+|      funcionalidad                      |
+| [ ] Corregir errores y hacer mejoras    |
+|      basadas en las pruebas             |
+| [ ] Completar el README con la          |
+|      definición del producto e          |
+|      instrucciones de uso               |
+| [ ] Desplegar la aplicación en GitHub   |
+|      Pages, Netlify o Vercel            |
+| [ ] Revisar el despliegue y asegurar    |
+|      que la aplicación sea accesible    |
+| [ ] Revisar que todos los criterios de  |
+|      aceptación estén cumplidos         |
+| [ ] Agendar sesión de feedback con un   |
+|      coach si es necesario              |
++-----------------------------------------+
